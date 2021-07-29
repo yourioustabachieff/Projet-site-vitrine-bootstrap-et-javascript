@@ -10,12 +10,45 @@ font-family: "Dancing script", Verdana, Geneva, Arial;
 
 
 
-.navbar{
-
-margin-top: 10%;
 
 
-}
+
+/* CSS NAV BAR AL */
+
+
+
+/* CSS FIN NAV BAR AL */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar{
+
+margin-top: 0%;
+
+
+} */
 
 
 
@@ -66,11 +99,11 @@ margin-top: 10%;
 
 
 
-  .bottom{
+  /* .bottom{
 
     text-align: center;
     margin-top: 150px;
-  }
+  } */
 
 
 
@@ -80,11 +113,48 @@ margin-top: 10%;
     bottom: 20px;
     right: 20px;
     display: none;
+    background-color: #ffffff;
   }
 
 
 
 
+
+
+  /* footer */
+
+  .cont_footer,
+    .bottom>div {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        text-align: center;
+        height: 15%;
+        margin: 1%;
+    }
+
+
+
+
+    #copyright {
+        text-align: center;
+        font-size: x-small;
+        background-color: #E8D6CA;
+        padding-top: 0.5%;
+    }
+
+    #ment_leg {
+
+        font-family: 'Quicksand', sans-serif;
+        font-size: small;
+
+
+    }
+
+
+
+
+  /* fin footer */
 
 
 
@@ -106,3 +176,48 @@ margin-top: 10%;
       
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* CSS NAV BAR MEDIA QUERY AL */
+@media screen and (max-width: 992px) {
+  .navbariconpadding {
+      display: none;
+  }
+  .nav-link {
+      border-right: 1px solid #6d071a !important;
+  }
+  .navbartabpadding {
+      border-bottom: none !important;
+  }
+  #livraisontab {
+      border-bottom: 1px solid #6d071a !important;
+  }
+  .responsiveicons {
+      display: flex !important;
+  }
+  #logobar {
+      display: none;
+  }
+  .navbar {
+      background-color: rgba(255, 255, 255, 0);
+  }
+  .headerbackground {
+      display: block;
+  }
+
+}
+
+
+/* CSS FIN NAV BAR MEDIA QUERY AL */

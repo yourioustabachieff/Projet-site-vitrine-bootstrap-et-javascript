@@ -27,3 +27,120 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+
+
+
+// SHOW AND HIDE
+
+
+
+
+
+
+function hideShowDiv1(){
+  let div1=document.getElementById("categori1");
+  let div2=document.getElementById("categori2");
+  let div3=document.getElementById("categori3");
+
+ 
+    div1.style.display='block';
+    div2.style.display='none';
+    div3.style.display='none';
+  
+
+}
+
+
+
+
+
+
+function hideShowDiv2(){
+  let div1=document.getElementById("categori1");
+  let div2=document.getElementById("categori2");
+  let div3=document.getElementById("categori3");
+  
+ 
+    div2.style.display='block';
+    div1.style.display='none';
+    div3.style.display='none';
+
+}
+
+
+
+
+
+
+function hideShowDiv3(){
+  let div1=document.getElementById("categori1");
+  let div2=document.getElementById("categori2");
+  let div3=document.getElementById("categori3");
+  
+ 
+    div3.style.display='block';
+    div1.style.display='none';
+    div2.style.display='none';
+ 
+
+}
+
+
+
+
+
+function hideShowDiv4(){
+  let div1=document.getElementById("categori1");
+  let div2=document.getElementById("categori2");
+  let div3=document.getElementById("categori3");
+  
+ 
+    div3.style.display='block';
+    div1.style.display='block';
+    div2.style.display='block';
+ 
+
+}
+
+
+
+
+
+
+
+
+
+// function hideShowDiv4(){
+//   let div=document.getElementById("toutesCate");
+  
+//   if(div.style.display=='none'){
+//     div.style.display='block';
+//   }else{
+//     div.style.display='none';
+//   }
+
+// }
+
+
+
+
+
+
+
+// function hideShowDiv2(){
+//   let div1=document.getElementById("categori1");
+//   let div2=document.getElementById("categori2");
+//   let div3=document.getElementById("categori3");
+  
+//   if(div2.style.display=='none'){
+//     div2.style.display='block';
+//     div1.style.display='none';
+//     div3.style.display='none';
+//   }else{
+//     div2.style.display='none';
+   
+//   }
+
+// }
